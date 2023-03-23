@@ -1,0 +1,679 @@
+/* Original css file
+.gamepane {
+    -fx-background-color: black;
+}
+
+.intro {
+    -fx-background-color: black;
+}
+
+
+
+.challenge-background {
+    -fx-background-image: url("../images/2.jpg");
+    -fx-background-size: cover;
+}
+
+.menu {
+    -fx-padding: 10;
+}
+
+.menuItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.menuItem:hover {
+    -fx-fill: yellow;
+}
+
+.menuItem.selected {
+    -fx-fill: yellow;
+}
+
+.bigtitle {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.heading {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.score {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.level {
+    -fx-fill: #ff6600;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.hiscore {
+    -fx-fill: orange;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.lives {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scorelist {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Orbitron';
+}
+
+.scoreitem {
+
+}
+
+.scorer {
+
+}
+
+.myscore {
+    -fx-font-weight: 700;
+}
+
+.deadscore {
+    -fx-strikethrough: true;
+}
+
+.points {
+}
+
+.channelList {
+
+}
+
+.channelItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+.channelItem.selected {
+    -fx-fill: yellow;
+}
+
+.leaderboard {
+    -fx-font-size: 16px;
+}
+
+.gameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+.scroller {
+    -fx-background-color: transparent;
+}
+
+.scroller .viewport {
+    -fx-background-color: transparent;
+}
+
+.messages {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+    -fx-font-family: 'Orbitron';
+}
+
+.messages Text {
+    -fx-fill: white;
+}
+
+TextField {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+}
+
+.playerBox {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Orbitron';
+}
+
+.playerBox Text {
+    -fx-fill: white;
+}
+
+.myname {
+    -fx-font-weight: 700;
+}
+
+.instructions {
+    -fx-font-size: 10px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bigtitle {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+
+
+.hiscore {
+    -fx-fill: orange;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+
+
+.scorelist {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Orbitron';
+}
+
+.scoreitem {
+
+}
+
+.scorer {
+
+}
+
+.myscore {
+    -fx-font-weight: 700;
+}
+
+
+.points {
+}
+
+.channelList {
+
+}
+
+.channelItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+.channelItem.selected {
+    -fx-fill: yellow;
+}
+
+.leaderboard {
+    -fx-font-size: 16px;
+}
+
+
+
+.playerBox {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Orbitron';
+}
+
+.playerBox Text {
+    -fx-fill: white;
+}
+
+.myname {
+    -fx-font-weight: 700;
+}
+
+
+
+    /* Star Wars CSS classes */
+
+
+TextField {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+}
+
+@font-face {
+    font-family: 'mandalor';
+    src: url('/style/mandalor.ttf');
+}
+
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('Starjedi.ttf');
+}
+
+@font-face {
+    font-family: 'DeathStar';
+    src: url('DeathStar-VmWB.ttf');
+}
+
+@font-face {
+    font-family: 'MoonH';
+    src: url('Moonhouse-yE5M.ttf');
+}
+
+.starWarsMenu-background {
+    -fx-background-image: url("../images/Menu_image.jpg");
+    -fx-background-size: cover;
+}
+
+.starWarsChallenge-background {
+    -fx-background-image: url("../images/Crait.jpg");
+    -fx-background-size: cover;
+}
+
+.starWarsInstructionsSceneBackground {
+    -fx-background-image: url("../images/Hoth.png");
+    -fx-background-size: cover;
+}
+
+.starWarsScore-background {
+    -fx-background-image: url("../images/AT-AT.jpg");
+    -fx-background-size: cover;
+}
+
+.starWarsMultiplayer-background {
+    -fx-background-image: url("../images/mustafar.png");
+    -fx-background-size: cover;
+}
+
+.starWarsButton {
+    -fx-background-color: white;
+    -fx-font-family: 'Death Star';
+}
+
+.starWarsThemeTitle {
+    -fx-fill: white;
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 50px;
+    -fx-font-weight: 900;
+    -fx-border-color: white;
+    -fx-stroke: black;
+    -fx-spacing: -12px;
+    -fx-hgap: -70px;
+}
+
+.starWarsThemeTitle :hover {
+    -fx-text-fill: rgb(176, 13, 35);
+}
+
+.starWarsThemeSubTitle {
+    -fx-fill: white;
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 30px;
+    -fx-font-weight: 100;
+    -fx-border-color: white;
+    -fx-stroke: black;
+    -fx-spacing: 2;
+}
+
+.starWarsThemeHeading {
+    -fx-fill: white;
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 40px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsMandalorThemeHeading {
+/*    -fx-padding: 10;
+    -fx-border-insets: 10;*/
+    -fx-fill: white;
+    -fx-font-family: 'Mandalorian';
+    -fx-font-size: 70px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsMandalorThemeInstruction {
+    -fx-fill: white;
+    -fx-font-family: 'Mandalorian';
+    -fx-font-size: 20px;
+    -fx-font-weight: 200;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsMenu {
+    -fx-padding: 10;
+}
+
+.starWarsMenuItem {
+    -fx-fill: black;
+    -fx-font-family: 'Orbitron';
+    -fx-background-color: white;
+    -fx-border-radius: 30px;
+    -fx-font-size: 19px;
+    -fx-font-weight: 100;
+    -fx-border-color: white;
+    -fx-stroke: white;
+/*    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);*/
+}
+
+.starWarsMenuItem:hover {
+    -fx-text-fill: rgb(176, 13, 35);
+}
+
+.starWarsMenuItem.selected {
+    -fx-fill: rgb(176, 13, 35);
+}
+
+.starWarsScore {
+    -fx-fill: rgb(176, 13, 35);
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 25px;
+    -fx-font-weight: 500;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+/*    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);*/
+}
+
+.starWarsLives {
+    -fx-fill: rgb(176, 13, 35);
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 25px;
+    -fx-font-weight: 500;
+    -fx-text-alignment: center;
+    -fx-stroke: black;
+    -fx-border-color: black;
+   /* -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);*/
+}
+
+.starWarsLevel {
+    -fx-fill: rgb(176, 13, 35);
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 17px;
+    -fx-font-weight: 500;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+/*    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);*/
+}
+
+.starWarsHighestScore {
+    -fx-fill: rgb(176, 13, 35);
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 20px;
+    -fx-font-weight: 500;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    /*
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+    */
+}
+
+.starWarsInstructions {
+    -fx-font-size: 10px;
+    -fx-font-family: 'Death Star';
+    -fx-fill: white;
+}
+
+.starWarsScoreTitle {
+    -fx-fill: white;
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 40px;
+    -fx-font-weight: 700;
+    -fx-border-color: white;
+    -fx-stroke: black;
+    -fx-spacing: -10px;
+    -fx-hgap: -60px;
+}
+
+.starWarsScoreSubTitle {
+    -fx-fill: white;
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: white;
+    -fx-stroke: black;
+    -fx-spacing: -10px;
+    -fx-hgap: -60px;
+}
+
+.starWarsDisplayScore {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Death Star';
+    -fx-fill: white;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsDisplayScoreBig {
+    -fx-font-size: 30px;
+    -fx-font-family: 'Death Star';
+    -fx-fill: white;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsDisplayScoreMedium {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Death Star';
+    -fx-fill: white;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsLobby {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Death Star';
+    -fx-fill: white;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsLobbyCurrentGames {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Death Star';
+    -fx-fill: white;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsLobbyCurrentGames:hover {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Death Star';
+    -fx-fill: rgb(176, 13, 35);
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.starWarsGameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+.starWarsScroller {
+    -fx-background-color: rgb(0,0,0,0);
+}
+
+.starWarsScroller .viewport {
+    -fx-background-color: rgb(0,0,0,0);
+}
+
+.starWarsMessages {
+    -fx-background-color: transparent;
+    -fx-font-size: 15px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+    -fx-border-color: white;
+}
+
+.starWarsMessages Text {
+    -fx-fill: white;
+}
+
+.starWarsLobbyInstructions {
+    -fx-font-size: 12px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+    -fx-border-color: white;
+}
+
+.starWarsLobbyUsers {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+    -fx-border-color: white;
+}
+
+.starWarsVersus {
+    -fx-fill: rgb(176, 13, 35);
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 20px;
+    -fx-font-weight: 500;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+}
+
+.starWarsVersusCrossed {
+    -fx-fill: rgb(176, 13, 35);
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 20px;
+    -fx-font-weight: 500;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-strikethrough: true;
+}
+
+.starWarsMusic {
+    -fx-fill: white;
+    -fx-font-family: 'Death Star';
+    -fx-font-size: 20px;
+    -fx-font-weight: 500;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+}
+
+.starWarsSubTitleGrey {
+    -fx-fill: grey;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 15px;
+    -fx-border-color: grey;
+    -fx-text-alignment: center;
+}
