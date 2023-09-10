@@ -237,7 +237,7 @@ public class ChallengeScene extends BaseScene {
             secondPiece.setPiece(secondPiece1);
         });
         scene.setOnKeyPressed(this::keyListener);
-        //In the brakets is a implementation of the LineClearedListener method
+        //In the brackets is a implementation of the LineClearedListener method
         game.setOnGameLoop(this::changeRound);
         game.setOnGameOver(this::gameOver);
         game.setLineClearedListener(this::fadeLinesImplementedInChallengeScene);
