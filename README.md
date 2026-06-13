@@ -34,3 +34,13 @@ Note : You need to be on the University's VPN to be able to play the game mode, 
 
 
 May the force be with you.
+
+
+Checks that will be submitted:
+
+README.md contains:
+##
+Motivation
+Quick Start
+Usage
+Contributing
